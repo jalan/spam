@@ -14,7 +14,7 @@ The module itself doesn't do anything useful, but serves as a demonstration of
  - continuous integration via [Travis](https://travis-ci.org)
  - code coverage via [Coveralls](https://coveralls.io)
 
-Consider it a starting point for building a new extension.
+Consider it a starting point for building a new extension module.
 
 
 ## Building
