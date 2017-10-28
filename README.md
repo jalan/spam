@@ -28,8 +28,20 @@ python setup.py build
 
 ## Testing
 
+Just run the tests:
+
 ```
 python setup.py test
+```
+
+Or check the coverage with
+[gcov](https://gcc.gnu.org/onlinedocs/gcc/Gcov.html):
+
+```
+export CFLAGS=--coverage
+python setup.py test
+find . -name '*.gcno' -exec gcov {} +
+less *.gcov
 ```
 
 
@@ -38,7 +50,6 @@ python setup.py test
 You really shouldn't use this, but I guess you could.
 
 ```
-$ python
 >>> import spam
 >>> help(spam)
 
@@ -69,5 +80,4 @@ sh: seriously: command not found
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 spam.Error: Command returned non-zero exit status 127
->>>
 ```
