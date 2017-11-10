@@ -12,7 +12,8 @@ The module itself doesn't do anything useful, but serves as a demonstration of
  - an exception type
  - tests
  - continuous integration via [Travis](https://travis-ci.org)
- - code coverage via [Coveralls](https://coveralls.io)
+ - code coverage via both [Coveralls](https://coveralls.io) and
+   [Codecov](https://codecov.io)
 
 Consider it a starting point for building a new extension module.
 
