@@ -1,7 +1,8 @@
 # spam
 
-[![Build Status](https://travis-ci.org/jalan/spam.svg?branch=master)](https://travis-ci.org/jalan/spam)
-[![Coverage Status](https://coveralls.io/repos/github/jalan/spam/badge.svg?branch=master)](https://coveralls.io/github/jalan/spam?branch=master)
+[![Travis status](https://travis-ci.org/jalan/spam.svg?branch=master)](https://travis-ci.org/jalan/spam)
+[![Coveralls status](https://coveralls.io/repos/github/jalan/spam/badge.svg?branch=master)](https://coveralls.io/github/jalan/spam)
+[![Codecov status](https://codecov.io/gh/jalan/spam/branch/master/graph/badge.svg)](https://codecov.io/gh/jalan/spam)
 
 An example Python C extension module, based on
 [the fantastic official documentation](https://docs.python.org/3/extending/).
