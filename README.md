@@ -1,6 +1,6 @@
 # spam
 
-[![Travis status](https://travis-ci.org/jalan/spam.svg?branch=master)](https://travis-ci.org/jalan/spam)
+[![Travis status](https://api.travis-ci.com/jalan/spam.svg?branch=master)](https://travis-ci.com/jalan/spam)
 [![Coveralls status](https://coveralls.io/repos/github/jalan/spam/badge.svg?branch=master)](https://coveralls.io/github/jalan/spam)
 [![Codecov status](https://codecov.io/gh/jalan/spam/branch/master/graph/badge.svg)](https://codecov.io/gh/jalan/spam)
 
@@ -12,7 +12,7 @@ The module itself doesn't do anything useful, but serves as a demonstration of
  - some functions
  - an exception type
  - tests
- - continuous integration via [Travis](https://travis-ci.org)
+ - continuous integration via [Travis](https://travis-ci.com)
  - code coverage via both [Coveralls](https://coveralls.io) and
    [Codecov](https://codecov.io)
 
