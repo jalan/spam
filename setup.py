@@ -2,11 +2,7 @@ from setuptools import Extension
 from setuptools import setup
 
 
-module = Extension(
-    "spam",
-    sources=["spam.c"],
-    extra_compile_args=["-Wall"],
-)
+module = Extension("spam", sources=["spam.c"], extra_compile_args=["-Wall"])
 
 setup(
     name="spam",
